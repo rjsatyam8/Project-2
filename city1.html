@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My City - Lakhisarai</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f1f8e9, #fffde7);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .moving-headline {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+    }
+
+    .moving-headline h1 {
+      display: inline-block;
+      font-size: 2.5rem;
+      color: #1b5e20;
+      animation: moveLeft 8s linear infinite;
+      padding: 10px 0;
+    }
+
+    @keyframes moveLeft {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    article {
+      padding: 20px;
+      background-color: #f9fbe7;
+      border-left: 6px solid #81c784;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="moving-headline">
+      <h1>Welcome to My City: Lakhisarai, Bihar</h1>
+    </div>
+
+    <article>
+      <p>
+        Lakhisarai is a vibrant and culturally rich city in the Indian state of Bihar. It is known for its spiritual atmosphere, surrounded by ancient temples, peaceful rivers, and historical landmarks.
+      </p>
+      <p>
+        The city lies on the banks of the Kiul River and is blessed with natural beauty and fertile land. Lakhisarai is steadily developing and becoming an important hub for education and commerce in the region.
+      </p>
+      <p>
+        Places like Ashok Dham, Jalappa Asthan, and Surya Mandir add religious and architectural significance to the city. With friendly people, local cuisine, and a peaceful environment, Lakhisarai is truly a special place to live.
+      </p>
+    </article>
+
+    <footer>
+      Created by Satyam Raj | Student, Gaya College of Engineering
+    </footer>
+  </div>
+
+</body>
+</html>
